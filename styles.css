@@ -12,18 +12,10 @@ text-align-left {
 
 }
 body {
+    background-image : "Assets\\Awais Technologies.jpeg";
     background-repeat : no-repeat ;
     background-attachment : fixed ;
     background-size : cover ;
-    size : 5ch ;
-    background-color : blueviolet;
 }
 legend {
-    color: crimson;
-    font-size: xx-large;
-
-}
-a {
-    font-size: x-larger;
-    text-align: center;
 }
