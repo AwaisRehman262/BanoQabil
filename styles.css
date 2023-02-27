@@ -1,21 +1,21 @@
 p {
     color: yellowgreen;
     font-size: large;
+    text-align: center;
 }
+
 text-align-center {
-
 }
+
 text-align-right {
-
 }
+
 text-align-left {
+}
 
-}
 body {
-    background-image : "Assets\\Awais Technologies.jpeg";
-    background-repeat : no-repeat ;
-    background-attachment : fixed ;
-    background-size : cover ;
+    background-color:olive;
 }
+
 legend {
 }
