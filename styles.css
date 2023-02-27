@@ -1,0 +1,29 @@
+p {
+    color: yellowgreen;
+    font-size: large;
+}
+text-align-center {
+
+}
+text-align-right {
+
+}
+text-align-left {
+
+}
+body {
+    background-repeat : no-repeat ;
+    background-attachment : fixed ;
+    background-size : cover ;
+    size : 5ch ;
+    background-color : blueviolet;
+}
+legend {
+    color: crimson;
+    font-size: xx-large;
+
+}
+a {
+    font-size: x-larger;
+    text-align: center;
+}
