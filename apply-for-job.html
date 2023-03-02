@@ -8,9 +8,20 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+		<h1>Welcome to Awais Technologies</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</nav>
+	</header>
     <fieldset>
         <legend>Apply for job</legend>
         <form  action="index.html" method="get">
+            <hr>
+            <h4>Personal Information</h4>
+            <hr>
             <p>First name:<input type="text" placeholder="e.g.John" name="Name" required></p>
             <p>Middle name:<input type="text" placeholder="e.g.Smith" name="Name"></p>
             <p>Last name:<input type="text" placeholder="e.g.Dave" name="Name"></p>
@@ -19,11 +30,14 @@
             <p>Cnic:<input type="text" placeholder="Your Cnic" name="Cnic" required></p>
             <p>Phone no:<input type="text" placeholder="Your Phone number." name="phone no" required></p>
             <p>Email:<input type="Email" placeholder="Your Email" name="Email"  required></p>
+            <hr>
+            <h4>Qualifications</h4>
+            <hr>
             <p>C.V. &nbsp;<input type="file" required></p>
-            <p>Extra Certificates &nbsp;<input type="file" required></p>
-            <p>Have you ever applied to / worked for [Our Company] before?<br>Yes<input type="checkbox" name="worked for our company before" id="yes">No<input type="checkbox" name="worked for our company before" id="no"></p>
+            <p>Extra cirricular Certificates &nbsp;<input type="file" required></p>
+            <p>Have you ever applied to / worked for [Our Company] before?<br>Yes<input type="radio" name="worked for our company before" id="yes">No<input type="radio" name="worked for our company before" id="no"></p>
             <p>If yes, please explain (include date):</p><textarea></textarea><br>
-            <p>Any previous Jobs<br>Yes<input type="checkbox" name="previous jobs" id="yes">No<input type="checkbox" name="previous jobs" id="no"></p>
+            <p>Any previous Jobs<br>Yes<input type="radio" name="previous jobs" id="yes" required>No<input type="radio" name="previous jobs" id="no" required></p>
             <p>If yes, please explain</p><textarea></textarea><br>
             <p>Refrences(Job title,name,etc)</p><textarea></textarea>
             <h5>Position and expected salary</h5>
@@ -33,6 +47,9 @@
             <input type="submit">
         </form>
     </fieldset>
-    <a href="index.html">Go back to about us</a>
+    <hr>
+    <footer style="text-align: center;">
+		<p>&copy; 2023 Awais Technologies. All Rights Reserved.</p>
+	</footer>
 </body>
 </html>
