@@ -1,0 +1,12 @@
+body {
+    background-color: burlywood;
+}
+
+input {
+    color: forestgreen;
+    background-color: goldenrod;
+}
+
+textarea {
+    background-color: lightskyblue;
+}

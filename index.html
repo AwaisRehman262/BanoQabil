@@ -1,27 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="Assets\Awais Technologies.jpeg"/>
-    <title>Awais Technologies</title>
-    </style>
+	<title>Awais Technologies</title>
 </head>
 <body>
-    <h1>Website</h1>
-        <p>Welcome to Awais Technologies, an IT company dedicated to providing innovative and reliable technology solutions to businesses of all sizes.
-            With a team of experienced professionals, we strive to deliver high-quality services that cater to the unique needs of each of our clients.<br>
-            At Awais Technologies, we understand the importance of technology in today's fast-paced world. We offer a wide range of services, 
-            including software development,web design, mobile app development, IT consulting, and more. Our team is equipped with the latest tools and technologies, 
-            ensuring that we stay up-to-date with the ever-changing digital landscape.<br>
-            We take pride in our customer-centric approach, where we work closely with our clients to understand their requirements and provide tailor-made solutions that meet their business needs.
-            Our aim is to build long-term relationships with our clients, and we achieve this by delivering exceptional customer service and support.<br>
-            At Awais Technologies, we are committed to providing affordable solutions without compromising on quality. We believe that technology should be accessible to all businesses,<br>
-            and we strive to make it a reality. Contact us today to learn more about our services and how we can help your business grow and thrive in the digital world.
-        </p>    
-    <br/>
-    <a href="apply-for-job.html" >Apply for job</a>
+	<header>
+		<h1>Welcome to Awais Technologies</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#about-us">About Us</a></li>
+				<li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="#career">Career</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="services">
+			<h2>Our Services</h2>
+			<ul>
+				<li>Web Development</li>
+				<li>Mobile App Development</li>
+				<li>Software Development</li>
+				<li>IT Consulting</li>
+			</ul>
+		</section>
+		<section id="about-us">
+			<h2>About Us</h2>
+			<p>Awais Technologies is a leading IT company that specializes in providing top-notch technological solutions to businesses of all sizes. With years of experience in the industry, our team of skilled and dedicated professionals are equipped with the knowledge and expertise to help our clients achieve their goals.</p>
+		</section>
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <form action="index.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="career">
+            <h4>Career</h4>
+            <ul>
+                <li><a href="apply-for-job.html">Apply for job</a></li>
+            </ul>
+        </section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Awais Technologies. All Rights Reserved.</p>
+	</footer>
 </body>
 </html>
