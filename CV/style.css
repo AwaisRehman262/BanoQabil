@@ -2,14 +2,17 @@ body {
     display: block;
     background-color: #ffffff;
     font-family:Helvetica;
-    align-self: center;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: ;
+    width: 750px;
 }
 
 header {
     display: flex;
     border: 1px solid #000000;
     padding: 25px;
-    width: 800px;
+    /* width: 800px; */
 }
 
 .up-left-div {
@@ -30,12 +33,12 @@ header {
     display: flex;
     border: 1px solid #000000;
     padding: 25px;
-    width: 800px;
+    /* width: 800px; */
 }
 
 .down-left-div {
     width:50%;
-    height: 50%;
+    height: 500px;
     border-right: 2px solid grey;
     text-align: left;
     padding: 25px;
@@ -43,7 +46,8 @@ header {
 
 .down-right-div {
     width: 50%;
-    height:50%;
+    height:500px;
+    border-left: 2px solid grey;
     text-align: left;
     padding: 25px;
 }
