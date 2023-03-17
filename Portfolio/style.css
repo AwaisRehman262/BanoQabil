@@ -10,6 +10,7 @@ header{
 .main1{
     background-color: #313443;
     color: white;
+    padding-left: 30px;
 }
 
 .me1{
@@ -43,10 +44,7 @@ header{
 .main2{
     background-color: #464651;
     color: whitesmoke;
-}
-
-.left{
-
+    padding:30px;
 }
 
 .right{
