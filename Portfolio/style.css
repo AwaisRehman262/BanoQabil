@@ -4,7 +4,14 @@ body{
 }
 
 header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+nav{
+    text-align: center;
+    list-style-type: none;
 }
 
 .main1{
